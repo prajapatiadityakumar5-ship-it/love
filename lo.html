@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Love Prediction ❤️</title>
+
+    <link rel="stylesheet" href="tyl.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background hearts -->
+    <div class="hearts">
+        <span>❤</span>
+        <span>♡</span>
+        <span>❤</span>
+        <span>♡</span>
+        <span>❤</span>
+        <span>♡</span>
+        <span>❤</span>
+    </div>
+
+
+    <!-- Main container -->
+    <main class="container">
+
+        <div class="card">
+
+            <div class="heart-logo">
+                ❤
+            </div>
+
+            <p class="mini-title">
+                ✦ LOVE DESTINY ✦
+            </p>
+
+            <h1>
+                Love <span>Prediction</span>
+            </h1>
+
+            <p class="subtitle">
+                Enter your initials and discover your
+                romantic compatibility.
+            </p>
+
+
+            <!-- Input area -->
+
+            <div class="input-area">
+
+                <div class="input-box">
+
+                    <label>Your Initial</label>
+
+                    <input
+                        type="text"
+                        id="firstInitial"
+                        maxlength="1"
+                        placeholder="A"
+                    >
+
+                </div>
+
+
+                <div class="heart-between">
+                    ❤
+                </div>
+
+
+                <div class="input-box">
+
+                    <label>Partner's Initial</label>
+
+                    <input
+                        type="text"
+                        id="secondInitial"
+                        maxlength="1"
+                        placeholder="S"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <button id="predictBtn" class="predict-btn">
+                DISCOVER YOUR LOVE
+            </button>
+
+
+            <p class="hint">
+                Example: A + S
+            </p>
+
+
+            <!-- Result -->
+
+            <div id="result" class="result">
+
+                <div class="result-hearts">
+                    ♥
+                </div>
+
+                <p class="result-title">
+                    YOUR LOVE SCORE
+                </p>
+
+                <div id="percentage">
+                    0%
+                </div>
+
+                <div class="progress">
+                    <div id="progressBar"></div>
+                </div>
+
+                <h2 id="couple">
+                    A + S
+                </h2>
+
+                <h3 id="predictionTitle">
+                    A Beautiful Connection
+                </h3>
+
+                <p id="predictionText">
+                    Your prediction will appear here.
+                </p>
+
+                <div class="stats">
+
+                    <div>
+                        <strong id="chemistry">0%</strong>
+                        <span>CHEMISTRY</span>
+                    </div>
+
+                    <div>
+                        <strong id="trust">0%</strong>
+                        <span>TRUST</span>
+                    </div>
+
+                    <div>
+                        <strong id="future">0%</strong>
+                        <span>FUTURE</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <p class="disclaimer">
+                ♥ This is a fun entertainment prediction,
+                not a scientific compatibility test.
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        Made with ❤ for hopeless romantics
+    </footer>
+
+
+    <script src="cal.js"></script>
+
+</body>
+</html>
